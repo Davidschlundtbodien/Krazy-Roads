@@ -15,6 +15,16 @@ struct Models {
     
     private static let hedgeScene = SCNScene(named: "art.scnassets/Hedge.scn")!
     static let hedge = hedgeScene.rootNode.childNode(withName: "hedge", recursively: true)!
+    
+    private static let carScene = SCNScene(named: "art.scnassets/PurpleCar.scn")!
+    static let car = carScene.rootNode.childNode(withName: "car", recursively: true)!
+    
+    private static let blueTruckScene = SCNScene(named: "art.scnassets/BlueTruck.scn")!
+    static let blueTruck = blueTruckScene.rootNode.childNode(withName: "truck", recursively: true)!
+    
+    private static let firetruckScene = SCNScene(named: "art.scnassets/Firetruck.scn")!
+    static let firetruck = firetruckScene.rootNode.childNode(withName: "truck", recursively: true)!
+    
 }
 
 let degreesPerRadians = Float(Double.pi/180)
