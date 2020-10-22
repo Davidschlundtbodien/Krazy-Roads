@@ -70,6 +70,7 @@ class GameViewController: UIViewController {
         scene = nil
         gameState = .menu
         score = 0
+        laneCount = 0
         lanes = [LaneNode]()
         initializeGame()
         
@@ -82,7 +83,6 @@ class GameViewController: UIViewController {
         setupFloor()
         setupCamera()
         setupLight()
-        
         setupActions()
         setupTraffic()
     }
